@@ -35,6 +35,10 @@ div.head{
 	margin: 20px;
 }
 
+input{
+	position: relative;
+}
+
 
 hr#bhr{
 	position: absolute;
