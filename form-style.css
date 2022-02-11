@@ -1,0 +1,50 @@
+body{
+	font-family: serif;
+	background-color: gray;
+	text-align: center;
+}
+
+div.box{
+	position: relative;
+	background-color: white;
+	left: 0;
+	top: 30px;
+	border: 1px solid black;
+	width: 50%;
+	margin: 0px auto;
+}
+
+input[type="submit"]{
+	background-color: green;
+	width: 70%;
+	color: white;
+}
+
+hr{
+	width: 30%;
+	
+}
+
+div.head{
+	align: center;
+	text-align: center;
+}
+
+#ahr{align: left;
+	position: absolute;
+	margin: 20px;
+}
+
+
+hr#bhr{
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin: 20px;
+	align: right;
+}
+
+form{
+	
+	margin: 15px auto;
+}
