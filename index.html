@@ -1,36 +1,116 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
 <head>
-<meta charset="utf-8"/>
-<meta lang="en"/>
 
-<link rel="stylesheet" type="text/css" href="form-style.css"/>
+<link rel="stylesheet" type="text/css" href="styling.css">
 
-<title>Simple Form</title>
-</head>
+<style type="text/css">
+
+	.odd{background-color: darkblue;
+		margin: 0 10%;
+	}
+
+	ul{
+
+		list-style-type: none;
+		float: right;
+		padding: 10px;
+		overflow: hidden;
+		width: 50%;
+
+	}
+
+	#logo{
+		font-size: 200%;
+		font-weight: 650;
+		border: none;
+}
+
+
+	li{
+
+		padding: 0;
+		display: block;
+		float: right;
+		margin-left: 12px;
+}
+
+	h5{
+		position: relative;
+		left: 10%;
+		color: darkblue;
+	}
+
+	#drop{
+		display: block;
+	}
+
+	#drop:hover #menu a{
+		display: block;
+		color: violet;
+	}
+
+	#menu a:hover{
+		color: black;
+		text-decoration: underline;
+	}
+
+	#menu a:active{
+		color: yellow;
+	}
+
+
+	#menu a{
+
+	display: none;
+	}
+
+</style>
+
+<title>
+Home page
+</title></head>
 
 <body>
+	<div class="odd"><span id="logo" >Bootslander</span>
+	<div style="display: inline">
+	<ul>
 
-<div class="box">
-<hr id="ahr" style="postion: absolute;align: left"> <div class="head" style="font-size:1.4em;font-weight:600;"> Register </div> <hr id="bhr">
+		<li><a href="#">Contact</a></li>
+		<li id="drop"><a href="#">Drop Down
 
-<p>Create your account by filling in the fields below.</p>
+		<div id="menu">
+			<a href="#">Item1</a>
+			<a href="#">Item2</a>
+			<a href="#">Item3</a>
+		</div>
 
-<form action="">
+		</a></li>
+		<li><a href="#">Pricing</a></li>
+		<li><a href="#">Team</a></li>
+		<li><a href="#">Gallery</a></li>
+		<li><a href="#">Feature</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Home</a></li>
 
-<input type="text" placeholder="First Name" size="21%"/>
-<input type="text" placeholder="Last Name" size="21%"/><br>
-<input type="text" placeholder="Email" size="50%"/><br>
-<input type="password" placeholder="Password" size="50%"/><br>
-<input type="password" placeholder="Confirm Password" size="50%"/>
+	</ul>
+	</div>
 
-<p>@ I accept the Terms of use and privacy policy</p>
+	<div class="content"><h1> Build Your Landing Page
+	<br>With <span>Bootslander<span></h1>
 
-<input type="submit" value="Register Now"/>
+	<p>We are a team of talented designers making websites <br> with Bootstrap</p>
 
-</form>
-Already have an account? <a href="">Login</a>
-</div>
+	<button>Get Started</button>
+
+	</div>
+	<div class="picture">
+	<img id="img" src="img.jpg">
+	<img src="img.jpg">
+	</div>
+	</div>
+
+	<div id="bot"><h5>Enim quis est voluptatiblus aliquid<br>consequatur fugiat</h5></div>
 </body>
+
 </html>
